@@ -1,5 +1,5 @@
 import prisma from "@/lib/db";
-import { LoginSchema } from "@/lib/types";
+import { LoginSchema } from "@/lib/Schemas";
 import { NextRequest, NextResponse } from "next/server";
 import bcrypt from 'bcrypt'
 export async function POST(req:NextRequest) {
